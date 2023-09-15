@@ -1,10 +1,9 @@
-/* Reset default margin and padding */
-body, header, nav, ul, li {
+/*======================{ ОБНУЛЯЕМ }======================*/
+body, header, nav, ul, li, p, a, h1, h2 {
     margin: 0;
     padding: 0;
 }
-
-/* Header background and height */
+/*======================{ ШАПКА САЙТА }======================*/
 header {
     background-color: #333;
     height: 60px;
@@ -12,14 +11,12 @@ header {
     align-items: center;
 }
 
-/* Logo styles */
 .logo img {
     height: 60px;
-    margin-left: 20px; /* Add some spacing between the logo and navigation */
+    margin-left: 20px;
 }
 
-/* Navigation list styles */
-nav ul {
+header nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -27,12 +24,11 @@ nav ul {
     height: 100%;
 }
 
-nav li {
+header nav li {
     margin: 0 10px;
 }
 
-/* Navigation link styles */
-nav a {
+header nav a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
@@ -40,10 +36,43 @@ nav a {
     transition: background-color 0.5s ease;
 }
 
-nav a:hover {
+header nav a:hover {
     background-color: #555;
 }
 
-nav a:focus {
+header nav a:focus {
     outline: none;
+}
+/*======================{ ПОДВАЛ САЙТА }======================*/
+.bottom-panel{
+    background-color: #aec4ad;
+    padding: 20px;
+    text-align: center;
+}
+.bottom-panel p{
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    margin: 5px 0;
+}
+/*======================{ MAIN }======================*/
+.MainPG{
+    background-color: #f5e0b8;
+    padding: 25px;
+    text-align: left;
+    display: flex;
+}
+
+.MainPG article{
+    width: 45%;
+    padding: 25px;
+    font-size: 24px;
+    margin: 14px 0;
+}
+
+.MainPG img{
+    height: auto;
+    width: auto;
+    padding: 25px;
+    margin: 14px 0;
 }
