@@ -1,3 +1,4 @@
+
 /*======================{ ОБНУЛЯЕМ }======================*/
 body, header, nav, ul, li, p, a, h1, h2 {
     margin: 0;
@@ -5,7 +6,7 @@ body, header, nav, ul, li, p, a, h1, h2 {
 }
 /*======================{ ШАПКА САЙТА }======================*/
 header {
-    background-color: #333;
+    background-color: rgb(186,190,158);
     height: 60px;
     display: flex;
     align-items: center;
@@ -30,40 +31,59 @@ header nav li {
 
 header nav a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(115,135,98);
     font-weight: bold;
-    padding: 20px;
+    padding: 22px;
     transition: background-color 0.5s ease;
 }
 
 header nav a:hover {
-    background-color: #555;
+    background-color: rgb(233,229,226);
 }
 
 header nav a:focus {
     outline: none;
 }
+
+header nav a:active {
+    color: red;
+}
 /*======================{ ПОДВАЛ САЙТА }======================*/
 .bottom-panel{
+    color: rgb(115,135,98);
     background-color: #aec4ad;
     padding: 20px;
     text-align: center;
 }
 .bottom-panel p{
     font-weight: bold;
-    color: #fff;
     font-size: 16px;
+    padding: 2px;
     margin: 5px 0;
 }
+.bottom-panel a{
+    color: rgb(115,135,98);
+    text-decoration: none;
+}
+
 /*======================{ MAIN }======================*/
 .MainPG{
-    background-color: #f5e0b8;
+    font-family: 'Ubuntu', serif;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    background-color: rgb(209,207,195);
     padding: 25px;
     text-align: left;
     display: flex;
 }
+.MainPG h2{
+    padding: 20px ;
+    color: rgb(193,138,81);
+}
 
 .MainPG article{
+    color: rgb(57,78,63);
     width: 45%;
     padding: 25px;
     font-size: 24px;
@@ -76,3 +96,4 @@ header nav a:focus {
     padding: 25px;
     margin: 14px 0;
 }
+
