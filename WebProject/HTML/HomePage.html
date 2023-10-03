@@ -4,56 +4,90 @@
     <meta charset="UTF-8">
     <title>Домашняя страница</title>
     <link rel="stylesheet" href="/CSS/HomeStyle.css">
+    <link rel="stylesheet" href="/CSS/NavbarAndFooter.css">
     <link rel="icon" href="/images/Favi-ico.png" type="image/png">
+
     <!--======================{ ШРИФТЫ }======================-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"/>
+
 </head>
 
 <body>
 <!--======================{ ШАПКА САЙТА }======================-->
-<header>
-    <div class="logo">
-        <img src="/images/Better_logo.gif" alt="Site logo">
+<nav class="navbar">
+    <div class="container">
+
+        <a href="HomePage.html" class="navbar-brand">KISHO</a>
+
+        <div class="navbar-wrap">
+            <ul class="navbar-menu">
+                <li><a href="#">О нас</a></li>
+                <li><a href="Products.html">Товары</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+<!--======================{ MAIN }======================-->
+<main>
+
+    <div class="site-banner">
+        <div class="site-banner--content">
+            <h1 class="site-banner--Title">
+                Освежите свой дом
+            </h1>
+            <h2 class="site-banner--Subtitle">
+                природной элегантностью
+            </h2>
+        </div>
+        <img src="../images/site-banner--img.jpeg" alt="site-banner--img.jpeg"/>
+
     </div>
 
-    <nav>
-        <ul>
-            <li><a href="HomePage.html">Домашняя страница</a></li>
-            <li><a href="">Список растений</a></li>
-            <li><a href="#AboutUS">О нас</a></li>
-            <li><a href="#ContactInfo">Контактная информация</a></li>
-        </ul>
-    </nav>
+<!--    <div class="Cont">-->
+<!--        <img src="/images/cats.jpg" height="700" width="700" alt="cats"/>-->
+<!--        <p class="About">-->
+<!--            Мы - компания KISHO, предлагаемая вам возможность превратить ваш дом в уютный зеленый уголок. Мы являемся экспертами в области комнатных растений и предлагаем широкий выбор разнообразных видов, которые помогут создать атмосферу спокойствия и гармонии в вашем интерьере. <br>-->
+<!--            Наша миссия - приносить радость и красоту природы в каждый дом, обогащая его зелеными растениями. Мы тщательно отбираем и выращиваем наши растения, чтобы обеспечить вам только самое лучшее качество. Независимо от ваших предпочтений и потребностей, мы предлагаем широкий ассортимент растений, от маленьких и неприхотливых до величественных и изысканных. <br>-->
+<!--            Мы также гордимся тем, что предлагаем не только качественные растения, но и профессиональные советы и руководства по уходу за ними. Наша команда экспертов всегда готова помочь вам с любыми вопросами, чтобы ваш опыт с комнатными растениями был приятным и успешным. <br>-->
+<!--            Привнесите красоту природы в свою жизнь с KISHO и создайте уникальную атмосферу в своем доме. Мы с нетерпением ждем возможности помочь вам воплотить ваши зеленые мечты!-->
+<!--        </p>-->
+<!--    </div>-->
 
-</header>
 
-<main class="MainPG">
-    <article>
-        <section>
-            <h2 id="AboutUS">О нас</h2>
-            <p>
-                Добро пожаловать в нашу небольшую компанию KishoGreens, где мы дарим красоту природы в помещении.  Мы собираем
-                разнообразные коллекции комнатных растений, тщательно отбирая их по качеству и экологичности. Наша миссия -
-                украсить ваше жилое пространство яркой зеленью, предоставляя при этом квалифицированные консультации и
-                исключительный сервис. Присоединяйтесь к нам и откройте для себя чудеса комнатного садоводства.
-            </p>
-        </section>
-    </article>
-
-    <aside>
-        <img src="../images/some.jpg" alt="SomePlant">
-    </aside>
 </main>
-
-
 <!--======================{ ПОДВАЛ САЙТА }======================-->
-<footer id="ContactInfo" class="bottom-panel">
-    <p>2023 KishoGreens. Все права защищены.</p>
-    <address class="panel-content">
-        <p>Email: <a href="mailto: kishogreens@inbox.com">kishogreens@inbox.com</a></p>
-        <p>Телефон: +7 (917) 312 54-54</p>
-    </address>
-</footer>
+<!--<footer>-->
+<!--    <div class="footer-site">-->
+<!--        <h4>Компания</h4>-->
+<!--        <ul>-->
+<!--            <li><a href="#">О компании</a></li>-->
+<!--            <li><a href="#">Наша команда</a></li>-->
+<!--            <li><a href="#">Новости</a></li>-->
+<!--            <li><a href="#">Вакансии</a></li>-->
+<!--        </ul>-->
+<!--    </div>-->
+
+<!--    <div class="footer-site">-->
+<!--        <h4>Зарабатывать с KISHO</h4>-->
+<!--        <ul>-->
+<!--            <li><a href="#">Стать продавцом</a></li>-->
+<!--            <li><a href="#">Стать поставщиком</a></li>-->
+<!--            <li><a href="#">Открыть пункт выдачи</a></li>-->
+<!--        </ul>-->
+<!--    </div>-->
+
+<!--    <div class="footer-site">-->
+<!--        <h4>Оставайтесь на связи</h4>-->
+<!--        <div class="links">-->
+<!--            <a href="#"><img src="/images/vk-icon.svg" alt="vk-svg"  width="32" height="32"></a>-->
+<!--            <a href="#"><img src="/images/tg-icon.svg" alt="tg-svg"  width="32" height="32"></a>-->
+<!--            <a href="#"><img src="/images/tel-icon.svg" alt="tel-svg" width="32" height="32"></a>-->
+<!--            <a href="#"><img src="/images/yt-icon.svg" alt="yt-svg"  width="32" height="32"></a>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--</footer>-->
 
 </body>
 </html>
