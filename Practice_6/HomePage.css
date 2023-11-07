@@ -10,10 +10,29 @@ header{
                 0  5px  10px rgba(0, 0, 0, .16);
 }
 
+header li{
+    list-style: none;
+}
+
 .content{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.notification{
+    width: 64px;
+    padding: 0 10px;
+    margin: 0 32px;
+}
+
+.notification li{
+    margin: 10px 0;
+}
+
+.notification li{
+    width: 100%;
+    padding: 0 16px;
 }
 
 @media (min-width:720px){
