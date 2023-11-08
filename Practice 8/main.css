@@ -3,60 +3,36 @@
     background: #EEEEEE;
     border-radius: 5px;
     font-size: 32px;
-    
-    box-shadow:
-            4px 4px 16px #323232,
-            inset 8px 8px 16px #646464;
 }
 .navigation{
     border: 2px solid #121212;
     background: #EEEEEE;
     border-radius: 5px;
     font-size: 32px;
-
-    box-shadow:
-            4px 4px 16px #323232,
-            inset 8px 8px 16px #646464;
 }
 .main{
     border: 2px solid #121212;
     background: #EEEEEE;
     border-radius: 5px;
     font-size: 32px;
-
-    box-shadow:
-            4px 4px 16px #323232,
-            inset 8px 8px 16px #646464;
 }
 .sidebar{
     border: 2px solid #121212;
     background: #EEEEEE;
     border-radius: 5px;
     font-size: 32px;
-
-    box-shadow:
-            4px 4px 16px #323232,
-            inset 8px 8px 16px #646464;
 }
 .ads{
     border: 2px solid #121212;
     background: #EEEEEE;
     border-radius: 5px;
     font-size: 32px;
-
-    box-shadow:
-            4px 4px 16px #323232,
-            inset 8px 8px 16px #646464;
 }
 .footer{
     border: 2px solid #121212;
     background: #EEEEEE;
     border-radius: 5px;
     font-size: 32px;
-
-    box-shadow:
-            4px 4px 16px #323232,
-            inset 4px 4px 16px #646464;
 }
 
 .con{
@@ -86,7 +62,7 @@
     }
     .footer{
         grid-column: 1 / -1;
-        grid-row: 4 / -1;
+        grid-row: 5 / -1;
     }
 }
 
@@ -270,4 +246,8 @@
 .box-7:hover{
     background-color: #66a057;
     transform: scale(1.02);
+}
+
+.contact-form{
+
 }
