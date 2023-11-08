@@ -3,21 +3,70 @@
     margin: 0;
 }
 
-.sub-name{
+body{
+    background-image: url("back.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 4%;
+    border-radius: 32px;
+    border: 4px double #ccc;
+
+    background: #1e1f22;
+}
+
+.button{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2em;
+    font-size: 16px;
+    font-weight: 700;
+
+    color: rgba(206, 154, 84, 0.9);
+
+    width: 150px;
+
+    padding: 8px;
+    border-radius: 16px;
+    border: 8px double rgba(206, 154, 84, 0.9);
+
+
+    transition: 0.5s;
+}
+
+.button:hover {
+    color: #66a057;
+    border: 8px solid #66a057;
+    transform: translateY(1rem) scale(1.15);
+}
+
+.content{
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(3, auto);
-    align-content: center;
-    justify-content: center;
-    height: 100vh;
     letter-spacing: 0.1rem;
     gap: 2em;
-    background: #1e1f22;
 }
 
 .input-box{
     position: relative;
-    width: 300px;
+    width: auto;
 }
 
 .name-input{
@@ -29,7 +78,6 @@
     background: transparent;
     color: #fff;
     font-size: 1.8rem;
-
 }
 
 .header{
@@ -51,12 +99,12 @@
     transition: 0.5s;
 }
 
-.input-box-1{
+.last-elem{
     grid-column: 1 / -1;
 }
 
 .name-input:valid ~ label,
-.name-input:focus ~ label{
+.name-input:focus ~ label {
     transform: translateY(-1.5rem);
     color: rgb(162, 162, 198);
     font-size: 0.75em;
