@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="07b98ad3-dcc9-4ac9-bf16-dbc6fc275aa0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Practice 8/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice 8/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/HomePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomePage.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2WvPs6ZuqNJQG2Hjcq1ZmMGW5oy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shilo/Документы/GIT/RKCHIR/Practice_6&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shilo\Документы\GIT\RKCHIR\Practice_6\№6" />
+      <recent name="C:\Users\shilo\WebstormProjects\untitled\№6" />
+      <recent name="C:\Users\shilo\WebstormProjects\untitled\№5" />
+      <recent name="C:\Users\shilo\WebstormProjects\untitled" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07b98ad3-dcc9-4ac9-bf16-dbc6fc275aa0" name="Changes" comment="" />
+      <created>1697610284098</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697610284098</updated>
+      <workItem from="1697610285166" duration="3730000" />
+      <workItem from="1697615272046" duration="617000" />
+      <workItem from="1697644139302" duration="2520000" />
+      <workItem from="1697703254110" duration="90000" />
+      <workItem from="1697708519173" duration="968000" />
+      <workItem from="1697709915499" duration="2923000" />
+      <workItem from="1697731675373" duration="2494000" />
+      <workItem from="1697772337557" duration="890000" />
+      <workItem from="1697775383932" duration="2305000" />
+      <workItem from="1697780032285" duration="5595000" />
+      <workItem from="1697788643237" duration="1728000" />
+      <workItem from="1698341523242" duration="264000" />
+      <workItem from="1698388205024" duration="3535000" />
+      <workItem from="1698392298683" duration="5677000" />
+      <workItem from="1698819531406" duration="37000" />
+      <workItem from="1698820338134" duration="2377000" />
+      <workItem from="1698822805378" duration="98000" />
+      <workItem from="1698824536926" duration="2281000" />
+      <workItem from="1698993401986" duration="96000" />
+      <workItem from="1698998753605" duration="1909000" />
+      <workItem from="1699366303845" duration="65000" />
+      <workItem from="1699367099216" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
