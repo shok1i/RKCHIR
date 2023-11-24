@@ -1,0 +1,82 @@
+:root {
+    --additional: #171026;
+    --background-basic: #F2D0D2;
+    --acceptance: #EC5C2A;
+    --warning: #DF3347;
+    --confirmation: #329AAE;
+}
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--additional);
+}
+
+@font-face {
+    font-family: 'Spectral ExtraBold';
+    src: url('Fonts/Spectralextrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Spectral Medium';
+    src: url('Fonts/Spectralmediumitalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Commons Light';
+    src: url('Fonts/TTCommons-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+header{
+    display: flex;
+    height: 10vh;
+}
+#svg_logo {
+    fill: var(--additional);
+    width: 64px;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+.first-title {
+    width: 100%;
+    height: 90vh;
+}
+.first-title h1 {
+    background-image: linear-gradient(50deg, var(--additional) 0%, var(--acceptance) 75%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    font-family: 'Spectral ExtraBold', Arial, serif;
+    font-size: 5vh;
+    line-height: 1;
+
+    position: absolute;
+    left: 20vh;
+    top: 34vh;
+}
+.first-title br {
+    line-height: 100;
+}
+.first-title h2 {
+    font-family: 'TT Commons Light', Arial, serif;
+    font-size: 2.5vh;
+
+    position: absolute;
+    left: 20vh;
+    top: 44vh;
+}
+.first-title #circle-1{
+    fill: var(--background-basic);
+    position: absolute;
+    opacity: .40;
+    width: 60vh;
+    z-index: -5;
+
+    left: -15vh;
+    top: 25vh;
+}
+
