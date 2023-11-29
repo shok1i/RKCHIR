@@ -35,11 +35,29 @@
 header{
     display: flex;
     height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+}
+header .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .nav h2{
+    padding: 0 4vh;
 }
 #svg_logo {
     fill: var(--additional);
-    width: 64px;
+    width: 8vh;
 }
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*==[ DEBAG ]==*/
+/*body {
+    background-image: url("Images/Prototype.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}*/
 /*---------------------------------------------------------------------------------------------------------------------*/
 .first-title {
     width: 100%;
@@ -51,12 +69,12 @@ header{
     -webkit-background-clip: text;
 
     font-family: 'Spectral ExtraBold', Arial, serif;
-    font-size: 5vh;
+    font-size: 5.5vh;
     line-height: 1;
 
     position: absolute;
     left: 20vh;
-    top: 34vh;
+    top: 36vh;
 }
 .first-title br {
     line-height: 100;
@@ -67,16 +85,28 @@ header{
 
     position: absolute;
     left: 20vh;
-    top: 44vh;
+    top: 50vh;
 }
+
 .first-title #circle-1{
     fill: var(--background-basic);
     position: absolute;
     opacity: .40;
-    width: 60vh;
+    width: 58vh;
     z-index: -5;
 
-    left: -15vh;
-    top: 25vh;
+    left: -11vh;
+    top: 29vh;
+}
+
+.first-title #circle-2{
+    fill: var(--background-basic);
+    position: absolute;
+    opacity: .40;
+    width: 32vh;
+    z-index: -5;
+
+    right: 0;
+    top: -20vh;
 }
 
