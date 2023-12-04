@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07b98ad3-dcc9-4ac9-bf16-dbc6fc275aa0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Practice 8/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practice 8/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/HomePage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomePage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coursework/Pages/Home/Home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coursework/Pages/Home/Home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coursework/Pages/Home/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Coursework/img/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Coursework/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Coursework/Pages/Catalog/Catalog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Coursework/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Coursework/Pages/Catalog/Catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Coursework/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Coursework/Pages/Catalog/Catalog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Coursework/Images/Prototype.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +93,8 @@
       <workItem from="1698998753605" duration="1909000" />
       <workItem from="1699366303845" duration="65000" />
       <workItem from="1699367099216" duration="16000" />
+      <workItem from="1701341916615" duration="18000" />
+      <workItem from="1701506942048" duration="6000" />
     </task>
     <servers />
   </component>
