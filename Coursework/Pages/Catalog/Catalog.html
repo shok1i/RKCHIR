@@ -59,10 +59,10 @@
             <span class="name">Аглаонема Мария</span>
 
             <div class="cart">
-                <input type="text" class="number">
+                <input type="text" class="number" id="pr_1">
                 <div class="control">
                     <!--  Minus -->
-                    <svg width="800px" height="800px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <svg onclick="remove('pr_1')" width="800px" height="800px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
                         <title>minus-circle</title>
                         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -74,7 +74,7 @@
                         </g>
                     </svg>
                     <!--  Plus  -->
-                    <svg width="800px" height="800px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <svg onclick="add('pr_1')" width="800px" height="800px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
                         <title>plus-circle</title>
                         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -86,7 +86,7 @@
                         </g>
                     </svg>
                 </div>
-                <button type="submit">Добавить в корзину</button>
+                <button onclick="addToCart()" type="submit">Добавить в корзину</button>
             </div>
 
         </div>

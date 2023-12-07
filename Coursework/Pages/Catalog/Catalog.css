@@ -109,12 +109,10 @@ footer a svg {
 .box .cart {
     display: flex;
 }
-.box .cart > * {
-    padding: 1vh;
-}
 .box .cart .control svg {
     height: 2vh;
     width:  2vh;
+    padding: 0 1vh;
 }
 .box .cart .number {
     width: 5vh;
