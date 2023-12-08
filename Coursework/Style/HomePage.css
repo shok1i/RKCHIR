@@ -1,16 +1,16 @@
-*{
-    padding: 0;
+* {
     margin: 0;
+    padding: 0;
 }
 /*=============================================[ FRAME 1 ]=============================================*/
 .Frame-1 {
     /* Layout */
     width: 100%;
-    height: 59.875rem;
+    height: 100vh;
     flex-shrink: 0;
 }
 /*=============================================[ HEADER ]=============================================*/
-.Frame-1 .LogoSVG {
+.Header .LogoSVG {
     /* Layout */
     width: 4.875rem;
     height: 4.875rem;
@@ -21,7 +21,7 @@
     top: 1.25rem;
     left: 4.94rem;
 }
-.Frame-1 .LogoColoring {
+.Header .LogoColoring {
     /* Layout */
     width: 4.875rem;
     height: 4.875rem;
@@ -32,7 +32,7 @@
     top: 2.06rem;
     left: 4.19rem;
 }
-.Frame-1 .LogoText {
+.Header .LogoText {
     /* Layout */
     width: 10.1875rem;
 
@@ -50,7 +50,7 @@
     line-height: normal;
     letter-spacing: 0.15rem;
 }
-.Frame-1 .NavMenu {
+.Header .NavMenu {
     /* Layout */
     width: 56.25rem;
     height: 3.375rem;
@@ -68,7 +68,7 @@
     gap: 1.25rem;
     flex-shrink: 0;
 }
-.Frame-1 .NavMenu > * {
+.Header .NavMenu > * {
     /* Layout */
     width: 12.5rem;
     flex-shrink: 0;
@@ -81,6 +81,18 @@
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+}
+.Header .NavMenu a {
+    /* Typography */
+    text-decoration: none;
+    color: #000;
+}
+/*=============================================[ FRAME 1 ]=============================================*/
+.Frame-1 {
+    /* Layout */
+    width: 100%;
+    height: 100vh;
+    flex-shrink: 0;
 }
 /*=============================================[ TEXT ]=============================================*/
 .Frame-1 .MainText {
@@ -147,6 +159,7 @@
     position: absolute;
     top: 14.31rem;
     left: -9.94rem;
+    z-index: -1;
 
     /* Typography */
     border-radius: 31.25rem;
@@ -163,6 +176,7 @@
     position: absolute;
     top: -7.94rem;
     left: 98.69rem;
+    z-index: -1;
 
     /* Typography */
     border-radius: 31.25rem;
@@ -173,7 +187,7 @@
 .Frame-2 {
     /* Layout */
     width: 100%;
-    height: 59.875rem;
+    height: 100vh;
     flex-shrink: 0;
 
     /* Typography */
@@ -185,12 +199,253 @@
     background: #0E0A26;
 }
 /*=============================================[ TEXT ]=============================================*/
+.Frame-2 .TextContainer {
+    /* Layout */
+    width: 32.25rem;
+    flex-shrink: 0;
 
+    /* Typography */
+    margin-left: 3.12rem;
+    align-items: center;
+}
+.Frame-2 .Title {
+    /* Layout */
+    width: 18.625rem;
+    height: 9.125rem;
+    flex-shrink: 0;
+
+    /* Typography */
+    margin-bottom: 2.87rem;
+}
+.Frame-2 .Title .MainText {
+    /* Typography */
+    color: #FFF;
+    font-family: Spectral, serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.Frame-2 .Title .Line1 {
+    /* Typography */
+    width: 11.375rem;
+    height: 0.75rem;
+
+    /* Position */
+    position: relative;
+    top: -6.25rem;
+    left: 0;
+
+    /* Style */
+    background: rgba(255, 255, 255, 0.25);
+}
+.Frame-2 .Title .Line2 {
+    /* Typography */
+    width: 18.625rem;
+    height: 0.75rem;
+
+    /* Position */
+    position: relative;
+    top: -2.4rem;
+    left: 0;
+
+    /* Style */
+    background: rgba(255, 255, 255, 0.25);
+}
+.Frame-2 .SubText .Text {
+    /* Typography */
+    color: #FFF;
+    margin-left: 2.5rem;
+    font-family: TT Commons, serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.Frame-2 .SubText svg {
+    /* Position */
+    position: relative;
+    top: -1rem;
+    left: 0;
+}
 /*=============================================[ IMAGES ]=============================================*/
 .Frame-2 .FlowersClouds{
     /* Typography */
-    margin-right: 4.38rem;
+    margin-right: 3.12rem;
 
     /* Style */
-    -webkit-mask-image: url(../Images/Mask1.svg);
+    -webkit-mask-image: url(../Images/Mask1_1.svg);
+}
+/*=============================================[ FRAME 3 ]=============================================*/
+.Frame-3 {
+    /* Layout */
+    width: 100%;
+    height: 100vh;
+    flex-shrink: 0;
+
+    /* Typography */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*=============================================[ TEXT ]=============================================*/
+.Frame-3 .TextContainer {
+    /* Position */
+    position: relative;
+    top: -7.69rem;
+
+    /* Typography */
+    display: flex;
+    margin-right: 3.12rem;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.Frame-3 .MainText {
+    /* Layout */
+    width: 18.125rem;
+    height: 4.25rem;
+
+    /* Position */
+    position: relative;
+    right: 0;
+
+    /* Typography */
+    color: #466C83;
+    margin-bottom: 3.56rem;
+    font-family: Spectral, serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    /* Style */
+    border-bottom: #466C83 solid 9px;
+}
+.Frame-3 .SubText {
+    /* Typography */
+    color: #030200;
+    text-align: right;
+    font-family: TT Commons, serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+/*=============================================[ IMAGES ]=============================================*/
+.Frame-3 .FlowersClouds{
+    /* Typography */
+    margin-left: 3.12rem;
+
+    /* Style */
+    -webkit-mask-image: url(../Images/Mask2.svg);
+}
+/*=============================================[ FOOTER ]=============================================*/
+.Footer {
+    /* Layout */
+    height: 22rem;
+    flex-shrink: 0;
+
+    /* Typography */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 14.44rem;
+
+    /* Style */
+    background: url(/Images/bg.png) left top/100px repeat;
+}
+.Footer > * {
+    margin-top: 3.63rem;
+}
+/*=============================================[ TEXT ]=============================================*/
+.block1 .FoundUs {
+    /* Layout */
+    width: 21.875rem;
+
+    /* Typography */
+    color: #FFF;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: TT Commons, serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.15rem;
+}
+.block1 .Subtext {
+    /* Typography */
+    color: #FFF;
+    margin-bottom: 5.25rem;
+    text-align: center;
+    font-family: TT Commons, serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.block1 .Credits {
+    /* Typography */
+    color: #FFF;
+    font-family: TT Commons, serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.block2 .LogoText {
+    /* Typography */
+    color: #FFF;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: TT Commons, serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.15rem;
+}
+.block2 .Subtext {
+    /* Typography */
+    color: #FFF;
+    margin-bottom: 5.81rem;
+    text-align: center;
+    font-family: TT Commons, serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.block2 .Copyrights {
+    /* Typography */
+    color: #FFF;
+    text-align: center;
+    font-family: TT Commons, serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.block3 .SocialText {
+    /* Typography */
+    color: #FFF;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: TT Commons, serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.15rem;
+}
+.block3 .SocialImg {
+    /* Typography */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2.44rem;
+}
+.block3 .SocialImg svg{
+    /* Layout */
+    width: 2.74825rem;
+    height: 2.74825rem;
+    flex-shrink: 0;
 }

@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*=============================================[ FRAME 1 ]=============================================*/
+.Frame-1 {
+    /* Layout */
+    width: 100%;
+    height: 100vh;
+    flex-shrink: 0;
+}
+/*=============================================[ HEADER ]=============================================*/
+.Header .LogoSVG {
+    /* Layout */
+    width: 4.875rem;
+    height: 4.875rem;
+    flex-shrink: 0;
+
+    /* Position */
+    position: absolute;
+    top: 1.25rem;
+    left: 4.94rem;
+}
+.Header .LogoColoring {
+    /* Layout */
+    width: 4.875rem;
+    height: 4.875rem;
+    flex-shrink: 0;
+
+    /* Position */
+    position: absolute;
+    top: 2.06rem;
+    left: 4.19rem;
+}
+.Header .LogoText {
+    /* Layout */
+    width: 10.1875rem;
+
+    /* Position */
+    position: absolute;
+    top: 2.69rem;
+    left: 11.06rem;
+
+    /* Typography */
+    color: #000;
+    font-family: TT Commons, serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.15rem;
+}
+.Header .NavMenu {
+    /* Layout */
+    width: 56.25rem;
+    height: 3.375rem;
+
+    /* Position */
+    position: absolute;
+    top: 2.69rem;
+    left: 59.06rem;
+
+    /* Typography */
+    display: flex;
+    padding: 0.5625rem 1.25rem 0.5rem 1.25rem;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.25rem;
+    flex-shrink: 0;
+}
+.Header .NavMenu > * {
+    /* Layout */
+    width: 12.5rem;
+    flex-shrink: 0;
+
+    /* Typography */
+    color: #000;
+    text-align: center;
+    font-family: TT Commons, serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.Header .NavMenu a {
+    /* Typography */
+    text-decoration: none;
+    color: #000;
+}
+/*=============================================[ FRAME 1 ]=============================================*/
+.Frame-1 {
+    /* Layout */
+    width: 100%;
+    height: 100vh;
+    flex-shrink: 0;
+}
+/*=============================================[ TEXT ]=============================================*/

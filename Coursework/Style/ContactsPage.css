@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*=============================================[ FRAME 1 ]=============================================*/
+.Frame-1 {
+    /* Layout */
+    width: 100%;
+    height: 100vh;
+    flex-shrink: 0;
+}
+/*=============================================[ HEADER ]=============================================*/
+.Header .LogoSVG {
+    /* Layout */
+    width: 4.875rem;
+    height: 4.875rem;
+    flex-shrink: 0;
+
+    /* Position */
+    position: absolute;
+    top: 1.25rem;
+    left: 4.94rem;
+}
+.Header .LogoColoring {
+    /* Layout */
+    width: 4.875rem;
+    height: 4.875rem;
+    flex-shrink: 0;
+
+    /* Position */
+    position: absolute;
+    top: 2.06rem;
+    left: 4.19rem;
+}
+.Header .LogoText {
+    /* Layout */
+    width: 10.1875rem;
+
+    /* Position */
+    position: absolute;
+    top: 2.69rem;
+    left: 11.06rem;
+
+    /* Typography */
+    color: #000;
+    font-family: TT Commons, serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.15rem;
+}
+.Header .NavMenu {
+    /* Layout */
+    width: 56.25rem;
+    height: 3.375rem;
+
+    /* Position */
+    position: absolute;
+    top: 2.69rem;
+    left: 59.06rem;
+
+    /* Typography */
+    display: flex;
+    padding: 0.5625rem 1.25rem 0.5rem 1.25rem;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.25rem;
+    flex-shrink: 0;
+}
+.Header .NavMenu > * {
+    /* Layout */
+    width: 12.5rem;
+    flex-shrink: 0;
+
+    /* Typography */
+    color: #000;
+    text-align: center;
+    font-family: TT Commons, serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.Header .NavMenu a {
+    /* Typography */
+    text-decoration: none;
+    color: #000;
+}
+/*=============================================[ FRAME 1 ]=============================================*/
+.Frame-1 {
+    /* Layout */
+    width: 100%;
+    height: 100vh;
+    flex-shrink: 0;
+
+    /* Style */
+    background-image: url("../Images/Sakura.png");
+    background-position: center;
+    background-size: cover;
+}
+/*=============================================[ TEXT ]=============================================*/
+.Frame-1 svg {
+    /* Position */
+    position: absolute;
+    bottom: 1.62rem;
+    left: 55.80rem;
+}
+.Frame-1 .MainText {
+    /* Position */
+    position: absolute;
+    top: 21.25rem;
+    left: 5rem;
+
+    /* Typography */
+    color: #FFF;
+    font-family: Versus, serif;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 3.4375rem; /* 85.938% */
+    letter-spacing: 0.4rem;
+}
+.Frame-1 .Subtext {
+    /* Position */
+    position: absolute;
+    top: 28.20rem;
+    left: 5rem;
+
+    /* Typography */
+    color: #FFF;
+    font-family: TT Commons, serif;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+/*=============================================[ FOOTER ]=============================================*/
+.Footer {
+    /* Layout */
+    height: 22rem;
+    flex-shrink: 0;
+
+    /* Typography */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 14.44rem;
+
+    /* Style */
+    background: url(/Images/bg.png) left top/100px repeat;
+}
+.Footer > * {
+    margin-top: 3.63rem;
+}
+/*=============================================[ TEXT ]=============================================*/
+.block1 .FoundUs {
+    /* Layout */
+    width: 21.875rem;
+
+    /* Typography */
+    color: #FFF;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: TT Commons, serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.15rem;
+}
+.block1 .Subtext {
+    /* Typography */
+    color: #FFF;
+    margin-bottom: 5.25rem;
+    text-align: center;
+    font-family: TT Commons, serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.block1 .Credits {
+    /* Typography */
+    color: #FFF;
+    font-family: TT Commons, serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.block2 .LogoText {
+    /* Typography */
+    color: #FFF;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: TT Commons, serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.15rem;
+}
+.block2 .Subtext {
+    /* Typography */
+    color: #FFF;
+    margin-bottom: 5.81rem;
+    text-align: center;
+    font-family: TT Commons, serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.block2 .Copyrights {
+    /* Typography */
+    color: #FFF;
+    text-align: center;
+    font-family: TT Commons, serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.block3 .SocialText {
+    /* Typography */
+    color: #FFF;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: TT Commons, serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.15rem;
+}
+.block3 .SocialImg {
+    /* Typography */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2.44rem;
+}
+.block3 .SocialImg svg{
+    /* Layout */
+    width: 2.74825rem;
+    height: 2.74825rem;
+    flex-shrink: 0;
+}
+/*=============================================[ FRAME 2 ]=============================================*/
+.Frame-2 {
+    /* Layout */
+    width: 100%;
+    height: 100vh;
+    flex-shrink: 0;
+}
+/*=============================================[ TEXT ]=============================================*/
+.Container {
+    /* Layout */
+    width: 100%;
+
+    /* Typography */
+    display: flex;
+    justify-content: space-between;
+}
+
+.Text {
+    /* Layout */
+    width: 41rem;
+
+    position: relative;
+    top: 15rem;
+    right: 4.25rem;
+
+    /* Typography */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.Text .LogoText {
+    /* Layout */
+    display: flex;
+    width: 12rem;
+    height: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    /* Typography */
+    color: #7585B4;
+    margin-bottom: 2rem;
+    margin-right: 0.25rem;
+    font-family: Spectral, serif;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.1125rem;
+    border-right: #7585B4 solid 6px;
+}
+.Text .MainText {
+    /* Layout */
+    width: 41rem;
+    height: 9.375rem;
+    flex-shrink: 0;
+
+    /* Typography */
+    color: #000;
+    margin-bottom: 3.5rem;
+    text-align: right;
+    font-family: Spectral, serif;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 4.6875rem; /* 78.125% */
+    letter-spacing: 0.3rem;
+}
+.Text .Subtext {
+    /* Layout */
+    width: 36rem;
+    height: 5.125rem;
+    flex-shrink: 0;
+
+    /* Typography */
+    color: #403C3C;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: TT Commons, serif;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.1125rem;
+}
+.Form {
+    /* Layout */
+    height: 100vh;
+
+    /* Typography */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Form > * {
+    display: flex;
+}
