@@ -1,0 +1,144 @@
+/* Footer */
+.footer {
+    display: flex;
+    height: 239px;
+    padding-top: 47px;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.footer .sub-text {
+    width: 260px;
+    color: #FFF;
+    font-family: TT Commons;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    height: fit-content;
+}
+
+.content {
+    display: flex;
+    height: 772px;
+    margin-top: 60px;
+    width: 1308px;
+    margin: 60px auto 0 auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    flex-shrink: 0;
+    background: #F3F3F3;
+    border-top-left-radius: 130px;
+    border-top-right-radius: 130px;
+}
+.content .head {
+    color: #000;
+    font-family: TT Commons;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    text-align: center;
+    margin-top: 60px;
+}
+.profile {
+    display: flex;
+    width: 1308px;
+    justify-content: center;
+    align-items: center;
+    gap: 220px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 400px;
+}
+.profile .main-text {
+    color: #000;    
+    width: 300px;
+    font-family: TT Commons;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.profile .sub-text {
+    color: rgba(0, 0, 0, 0.25);
+    width: 300px;
+    height: 40px;
+    font-family: TT Commons;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+.profile input {
+    background-color: #F3F3F3;
+    height: 40px;
+    margin-bottom: 12px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.25);
+}
+
+
+.btn {
+    display: flex;
+    margin-top: 32px;
+
+    width: 400px;
+    height: 50px;
+}
+.Change {
+    background-color: #BBB;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    
+    border-radius: 30px;
+    border: none;
+
+    width: 150px;
+    height: 50px;
+}
+.Confirm {
+    background-color: #BBB;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+
+    border-radius: 30px;
+    border: none;
+
+    width: 150px;
+    height: 50px;
+}
+.Confirm:hover {
+    background-color: #6C63FF;
+    transition: 0.5s ease-in-out;
+}
+.Cancel {
+    background-color: #BBB;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+
+    border-radius: 30px;
+    border: none;
+
+    width: 150px;
+    height: 50px;
+}
+.Cancel:hover {
+    background-color: #ff6363;
+    transition: 0.5s ease-in-out;
+}
