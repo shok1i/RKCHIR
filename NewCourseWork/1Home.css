@@ -135,3 +135,240 @@
     flex-shrink: 0;
     -webkit-mask-image: url(img/OrchidMask.svg);
 }
+
+@media (max-width: 1440px) {
+    .header{
+        display: none;
+    }
+    .header-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+    .header-mobile .top {
+        display: flex;
+        width: 376px;
+        justify-content: center;
+        align-items: center;
+        gap: 85px;
+    }
+    .header-mobile .top svg {
+        flex: 1 0 0;
+        width: 40px;
+        height: 40px;
+        margin: 0;
+        padding: 0;
+        align-self: stretch;
+    }
+    .header-mobile span{
+        color: #000;
+        font-family: TT Commons;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 3.6px;
+        text-align: center;
+    }
+    .header-mobile button {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 9px;
+        flex-shrink: 0;
+    }
+    button .text {
+        color: #000;
+        font-family: Lack;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+    }
+    button svg {
+        width: 38px;
+        height: 10px;
+        flex-shrink: 0;
+    }
+    .nav-burger {
+        position: absolute;
+        top: 110px;
+        background-color: #fff;
+        margin: auto;
+        display: flex;
+        width: 376px;
+        height: 332px;
+        padding: 40px 0px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    .first-title {
+        display: inline-flex;
+        height: 592px;
+        padding: 0px 20px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 54px;
+        flex-shrink: 0;
+    }
+    .first-title img {
+        position: relative;
+        width: 350px;
+        height: 208px;
+        z-index: -1;
+        flex-shrink: 0;
+    }
+    .first-title .text {
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+    .first-title .main-text {
+        background: linear-gradient(90deg, #8E0A0D 0.15%, rgba(255, 0, 0, 0.75) 100.15%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Rimma_sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 3px;
+    }
+
+    .first-title .sub-text {
+        color: #000;
+        font-family: TT Commons;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 0.75px;
+    }
+
+    .second-title {
+        display: flex;
+        width: 422px;
+        height: 592px;
+        padding: 0px 50px;
+        background: #0E0A26;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        flex-shrink: 0;
+    }
+    .second-title .main-text {
+        color: #FFF;
+        font-family: Lack;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.6px;
+        text-decoration-line: underline;
+    }
+
+    .second-title .sub-text {
+        color: rgba(255, 255, 255, 0.75);
+        font-family: TT Commons;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 100%;
+    }
+
+    .second-title img{
+        display: none;
+        flex-shrink: 0;
+    }
+    .third-title {
+        display: inline-flex;
+        height: 592px;
+        padding: 20px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 75px;
+        flex-shrink: 0;
+    }
+    .third-title img {
+        display: none;
+    }
+    .third-title .main-text {
+        color: #466C83;
+        font-family: Lack;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.6px;
+        text-align: right;
+        text-decoration-line: underline;
+    }
+    .third-title .sub-text {
+        color: #030200;
+        font-family: TT Commons;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-align: right;
+    }
+
+    .footer {
+        display: flex;
+        width: 422px;
+        height: 476px;
+        flex-direction: column;
+        align-items: center;
+        gap: 76px;
+        flex-shrink: 0;
+    }
+    .footer .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        align-self: stretch;
+    }
+    .footer .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        align-self: stretch;
+    }
+    .footer .main-text {
+        color: #FFF;
+        align-self: stretch;
+        font-family: Lack;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+    }
+    .footer .sub-text {
+        color: #FFF;
+        align-self: stretch;
+        font-family: TT Commons;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-align: center; 
+    }
+}
