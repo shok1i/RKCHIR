@@ -129,4 +129,51 @@ tree.onclick = function () {
 }
 
 
+
+// Получаем ссылку на элемент box
+const box = document.getElementById("box");
+// Определяем начальный и конечный цвет для анимации
+const startColor = "blue";
+const endColor = "green";
+
+
+
+// Определяем функцию для запуска анимации
+function triggerAnimation() {
+    // Добавляем CSS-класс к элементу box, чтобы инициировать переход
+    box.classList.add("spin");
+
+
+    // Определяем текущий цвет бокса
+    const currentColor = box.style.backgroundColor;
+
+    // Проверяем, является ли текущий цвет начальным цветом
+    if (currentColor === startColor) {
+        // Изменяем цвет бокса на последний цвет
+        box.style.backgroundColor = endColor;
+    } else {
+        // Изменяем цвет бокса на начальный цвет
+        box.style.backgroundColor = startColor;
+    }}
+
+// Настраиваем прослушиватель событий для элемента box
+box.addEventListener("click", triggerAnimation);
+
+// Сбрасываем анимацию, когда переход закончится
+box.addEventListener("transitionend", function () {
+    box.classList.remove("spin");
+    // Определяем текущий цвет бокса
+    const currentColor = box.style.backgroundColor;
+
+    // Проверяем, является ли текущий цвет начальным цветом
+    if (currentColor === startColor) {
+        // Изменяем цвет бокса на последний цвет
+        box.style.backgroundColor = endColor;
+    } else {
+        // Изменяем цвет бокса на начальный цвет
+        box.style.backgroundColor = startColor;
+    }});
+
+
+
  

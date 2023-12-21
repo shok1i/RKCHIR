@@ -175,3 +175,19 @@ button {
 .selected {
     background-color: #cce5ff;
 }
+
+
+/* Устанавливаем внешний вид бокса */
+#box {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: transform 1s ease-out;
+    cursor: pointer;
+}
+
+/* Определяем класс "spin" для запуска анимации */
+.spin {
+    transform: rotate(360deg);
+}
